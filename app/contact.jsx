@@ -7,7 +7,7 @@ const explore = () => {
 
       <View style={styles.container1}>
         <Text style={styles.text1}>
-          Hello from Explore Tab. This is simply just a coffee shop. 
+          Hello from Coffee Shop. This is simply just a coffee shop. 
           We serve all kind of morning beverages and hot teas. 
           We are located all around the world since we have a lot of branches. 
           You can also visit our website at &apos;www.coffeeshop.com&apos; 
