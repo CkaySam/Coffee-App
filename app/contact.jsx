@@ -1,45 +1,43 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ImageBackground, StyleSheet, Text, View } from 'react-native'
+import CoffeeImage from '../assets/images/menu/contactpagecoffee.jpg'
 
-const explore = () => {
+const contact = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>explore</Text>
-
-      <View style={styles.container1}>
-        <Text style={styles.text1}>
-          Hello from Coffee Shop. This is simply just a coffee shop. 
-          We serve all kind of morning beverages and hot teas. 
-          We are located all around the world since we have a lot of branches. 
-          You can also visit our website at &apos;www.coffeeshop.com&apos; 
-          or email us at &apos;coffeeshop@gmail.com&apos; for more information. 
-          Thank you!
-        </Text>
+      <View style={styles.coffeeimage}>
+        <ImageBackground
+          source={CoffeeImage}
+          resizeMode='cover'
+          style={styles.coffeeimage}
+        ></ImageBackground>
       </View>
 
+      <View style={styles.container1}>
+        <Text style={styles.header}>Contact Us</Text>
+      </View>
     </View>
   )
 }
 
-export default explore
+export default contact
 
 const styles = StyleSheet.create({
-  text: {
-    fontSize: 24,
+  header: {
+    fontSize: 35,
     fontWeight: 'bold',
     textAlign: 'center',
-    margin: 16,
   },
   container: {
-    height: '100%',
     width: '100%',
+    height: 300,
     alignItems: 'center',
-    color: 'black',
-    backgroundColor: 'orange',
   },
   container1: {
-    marginTop: 100,
-    backgroundColor: 'white',
     padding: 20,
     borderRadius: 10,
   },
+  coffeeimage: {
+    width: '100%',
+    height: '100%',
+  }
 })
