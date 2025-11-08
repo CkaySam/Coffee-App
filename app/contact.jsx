@@ -22,6 +22,7 @@ const contact = () => {
           <Text>
             {'\n'}Monday - Friday: 8:00 AM - 8:00 PM
             {'\n'}Saturday - Sunday: 9:00 AM - 6:00 PM
+            {'\n'}Holidays are excluded.
           </Text>
         </Text>
       </View>
