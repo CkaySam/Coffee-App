@@ -10,7 +10,7 @@ const app = () => {
         resizeMode='cover'
         style={styles.image}
         >
-        <Text style={styles.title}>Coffee Shop</Text>
+        <Text style={styles.title}>Ckay's Coffee Shop</Text>
 
         <Link href="/menu" style={{marginHorizontal: 'auto'}} asChild>
             <Pressable style={styles.button}>
