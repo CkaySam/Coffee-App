@@ -17,7 +17,7 @@ export const MENU_ITEMS = [
     {
         id: '4',
         name: 'Mocha',
-        description: 'Espresso with chocolate and steamed milk.',
+        description: 'Espresso with sweet chocolate and steamed milk.',
     },
     {
         id: '5',
